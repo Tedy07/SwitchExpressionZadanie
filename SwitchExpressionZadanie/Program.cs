@@ -27,6 +27,7 @@
             };
             Console.WriteLine($"Twój wynik to {reaction}");
 
+            // Działający program
         }
     }
 }
