@@ -19,10 +19,10 @@
 
             var reaction = selected switch
             {
-                1 => (numberFirst + numberSecend),
-                2 => (numberFirst - numberSecend),
-                3 => (numberFirst * numberSecend),
-                4 => (numberFirst / numberSecend),
+                1 => numberFirst,
+                2 => numberFirst,
+                3 => numberSecend,
+                4 => numberSecend,
                 _ => 0,
             };
             Console.WriteLine($"Twój wynik to {reaction}");
